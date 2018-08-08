@@ -14,6 +14,21 @@ Repositório para fins de estudos relacionado a desenvolvimento de .NET CORE 2 c
 * SQL Server;
 * Node.js (execução do Front-End);
 
+## Executando Localmente:
+
+Se faz necessário executar os seguintes comandos (**Package Manager Console**):
+
+```
+
+> Install-Package Microsoft.EntityFrameworkCore.SqlServer  
+
+```
+
+```
+
+> Install-Package Microsoft.EntityFrameworkCore.Tools  
+
+```
 
 **(documentação em desenvolvimento)**
 
