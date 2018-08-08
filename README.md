@@ -5,14 +5,14 @@ Repositório para fins de estudos relacionado a desenvolvimento de .NET CORE 2 c
 
 ## Recursos Utilizados no Desenvolvimento:
 
-* Visual Studio 2017
-* .NET CORE 2.1
-* C# 
-* Angular 5
-* Typescript 2.x
-* Entity Framework 6
-* SQL Server
-* Node.js (execução do Front-End)
+* Visual Studio 2017;
+* .NET CORE 2.1;
+* C#;
+* Angular 5;
+* Typescript 2.x;
+* Entity Framework Core (DataBase First);
+* SQL Server;
+* Node.js (execução do Front-End);
 
 
 **(documentação em desenvolvimento)**
