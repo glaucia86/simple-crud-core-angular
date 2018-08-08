@@ -6,6 +6,7 @@ namespace FuncionarioApp.Models
     public partial class Cidades
     {
         public int CidadeId { get; set; }
+
         public string NomeCidade { get; set; }
     }
 }

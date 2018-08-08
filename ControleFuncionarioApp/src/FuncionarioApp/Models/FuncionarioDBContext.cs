@@ -16,6 +16,7 @@ namespace FuncionarioApp.Models
         }
 
         public virtual DbSet<Cidades> Cidades { get; set; }
+
         public virtual DbSet<Funcionario> Funcionario { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
