@@ -33,7 +33,7 @@ namespace FuncionarioApp.Controllers
             return _funcionario.ObterFuncionarioPorId(funcionarioId);
         }
 
-        [HttpPut("api/Funcionario/Atualizar/{id}")]
+        [HttpPut("api/Funcionario/Atualizar")]
         public int AtualizarFuncionario([FromBody]Funcionario funcionario)
         {
             return _funcionario.AtualizarFuncionario(funcionario);

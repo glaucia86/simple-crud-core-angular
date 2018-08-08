@@ -47,4 +47,13 @@ export class FuncionarioService {
             .map((response: Response) => response.json())
             .catch(this.handleError);
     }
+
+    // (PUT) Método responsável por Atualizar o Funcionário:
+    putAtualizarFuncionario(funcionario) {
+        return this._http.put(this.funcionarioAppUrl + 'api/Funcionario/Atualizar', funcionario)
+            .map((response: Response) => response.json())
+            .catch(this.handleError);
+    }
+
+    // (DELETE)
 }
