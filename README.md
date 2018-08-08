@@ -30,5 +30,11 @@ Se faz necessário executar os seguintes comandos (**Package Manager Console**):
 
 ```
 
+```
+
+> Scaffold-DbContext "Sua connection string aqui" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Tables Funcionario, Cidades 
+
+```
+
 **(documentação em desenvolvimento)**
 
